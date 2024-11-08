@@ -99,7 +99,7 @@ function Sidebar({ isActive, setActive }) {
                         <img className="h-full" src={GoalsActive} alt="Overview icon" />
                     </div>
                     <h4 className="text-lg tracking-wide">
-                        Goals
+                      <a href="Goal">Goals</a>
                     </h4>
                 </button>
                 <button className="px-4 py-3 w-full flex flex-row items-center gap-4 text-white/70 active:bg-primary focus:bg-primary rounded-md active:font-semibold focus:font-semibold active:text-white focus:text-white">
